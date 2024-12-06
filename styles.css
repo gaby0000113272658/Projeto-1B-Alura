@@ -1,0 +1,36 @@
+body {
+    background: rgb(241, 205, 254);
+    color:rgb(47, 4, 66);
+    margin: 15px;
+}
+header {
+    border-bottom: solid 2px;
+    padding: 18px;
+    font-size: 30px;
+    color: rgb(106, 32, 133);
+}
+
+.chamada {
+    background: rgb(170, 66, 170);
+}
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 5px;
+}
+
+.categoria{
+    padding-left: 20xp;
+    padding-right: 20xp;
+    margin-top: 50xp
+}
+
+.categoria-videos img { 
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3xp solid rgb(241, 205, 254)
+}
